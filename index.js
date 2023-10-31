@@ -1,12 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const config=require('config.json');
 const { Sequelize, DataTypes } = require('sequelize');
 const yup = require('yup');
 
 
 // Initialize Sequelize
-const sequelize =new Sequelize('postgres://username:password@localhost:port_number/database');
+const sequelize =new Sequelize('postgres://postgres:Shafi@11@localhost:5432/postgres');
 
 
 const app =express();
