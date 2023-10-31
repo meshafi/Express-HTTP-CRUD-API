@@ -5,7 +5,7 @@ const yup = require('yup');
 
 
 // Initialize Sequelize
-const sequelize =new Sequelize('postgres://postgres:Shafi@11@localhost:5432/postgres');
+const sequelize =new Sequelize('postgres://username:password@localhost:port_number/database');
 
 
 const app =express();
