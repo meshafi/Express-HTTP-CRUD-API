@@ -9,7 +9,8 @@ const yup = require('yup');
 const sequelize =new Sequelize('postgres://username:password@localhost:port_number/database');
 
 
-const app = express();
+const app =                     
+                                      express();
 const port = 8000;
 
 // Define a schema for validating for requests
