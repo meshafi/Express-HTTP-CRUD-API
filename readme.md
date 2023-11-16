@@ -43,28 +43,29 @@ Proper HTTP status codes are used for clear responses.
 
 1. Clone the repository to your local machine.
 
-2. ```
+    ```ruby
    cd Express-HTTP-CRUD-API
-  
-  ```
-2. Create a new file named `.env` and configure your database connection in the file. 
+     ```
 
-   ``` ruby
-    DB_CONNECTION_STRING ='postgres://username:password@localhost:port_number/database'
-    
-    ```
-* __postgres__: This is the protocol or dialect, which specifies that you're using the PostgreSQL database.
+2. Create a new file named `.env` and configure your database connection in the file.
 
-* __username__: This is the username used to connect to the PostgreSQL database.
 
-* __password__: This is the password for the PostgreSQL user specified in the connection string.
+ ```ruby
 
-* __localhost__: This is the hostname or IP address of the PostgreSQL server. In this case, it's referring to a PostgreSQL database running on the local machine.
-
-* __port_number__: This is the port number on which the PostgreSQL server is listening for connections.
-
-* __database__: This is the name of the PostgreSQL database to which you want to connect.
-
+     DB_CONNECTION_STRING ='postgres://username:password@localhost:port_number/database'
+        
+      * __postgres__: This is the protocol or dialect, which specifies that you're using the PostgreSQL database.
+      
+      * __username__: This is the username used to connect to the PostgreSQL database.
+      
+      * __password__: This is the password for the PostgreSQL user specified in the connection string.
+      
+      * __localhost__: This is the hostname or IP address of the PostgreSQL server. In this case, it's referring to a PostgreSQL database running on the local machine.
+      
+      * __port_number__: This is the port number on which the PostgreSQL server is listening for connections.
+      
+      * __database__: This is the name of the PostgreSQL database to which you want to connect.
+```
 
 1. Install dependencies
 
