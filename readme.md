@@ -40,9 +40,9 @@ Proper HTTP status codes are used for clear responses.
 
 1. Clone the repository to your local machine.
 
-2. Configure your database connection in the `index.js` file. 
+2. Configure your database connection in the `.env` file. 
    ``` ruby
-    const sequelize =new Sequelize('postgres://username:password@localhost:port_number/database');
+    DB_CONNECTION_STRING =('postgres://username:password@localhost:port_number/database');
     
     ```
 

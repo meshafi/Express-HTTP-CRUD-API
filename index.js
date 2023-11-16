@@ -1,11 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const { Sequelize, DataTypes } = require('sequelize');
 const yup = require('yup');
 
 
-// Initialize Sequelize
-const sequelize =new Sequelize('postgres://username:password@localhost:port_number/database');
+const sequelize = new Sequelize(process.env.DB_CONNECTION_STRING);
 
 
 const app =express();
